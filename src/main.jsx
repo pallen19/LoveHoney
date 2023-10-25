@@ -5,13 +5,14 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import './index.css'
+// import './index.css'
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import SipVibes from './pages/SipVibes.jsx';
 import ArtofLiving from './pages/ArtofLiving.jsx';
 import LoveLanguage from './pages/LoveLanguage.jsx';
 import GoodReads from './pages/GoodReads.jsx';
+import Home from './pages/Home.jsx';
 
 const router = createBrowserRouter([
   {
